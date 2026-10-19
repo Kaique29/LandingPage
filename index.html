@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kaique Rodrigues | Dev</title>
+<meta name="description" content="Kaique Rodrigues — Desenvolvedor de Software">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-glow"></div>
+
+<header class="nav">
+  <a href="#home" class="logo">KR<span class="dot">.</span>dev</a>
+  <nav class="nav-links">
+    <a href="#about">Sobre</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projetos</a>
+    <a href="#contact">Contato</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <p class="eyebrow">Olá, eu sou</p>
+    <h1>Kaique Rodrigues</h1>
+    <h2 class="typewriter"><span id="typed"></span><span class="cursor">|</span></h2>
+    <p class="hero-text">Construo interfaces e sistemas com código limpo, foco em performance e boa experiência de uso.</p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">Ver projetos</a>
+      <a href="#contact" class="btn btn-ghost">Falar comigo</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h3 class="section-title"><span>01.</span> Sobre mim</h3>
+    <div class="about-grid">
+      <p>
+        Sou desenvolvedor apaixonado por transformar ideias em produtos digitais funcionais.
+        Gosto de estudar novas tecnologias, resolver problemas reais e escrever código que
+        outras pessoas conseguem entender e manter. Atualmente foco em desenvolvimento web
+        full-stack, sempre buscando aprender mais sobre boas práticas e arquitetura de software.
+      </p>
+      <div class="about-stats">
+        <div class="stat"><span class="stat-num">+2</span><span class="stat-label">Anos estudando dev</span></div>
+        <div class="stat"><span class="stat-num">6+</span><span class="stat-label">Repositórios no GitHub</span></div>
+        <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Dedicação</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h3 class="section-title"><span>02.</span> Tecnologias</h3>
+    <div class="skills-grid">
+      <div class="skill-card"><span class="skill-icon">{ }</span><span>HTML5</span></div>
+      <div class="skill-card"><span class="skill-icon">#</span><span>CSS3</span></div>
+      <div class="skill-card"><span class="skill-icon">JS</span><span>JavaScript</span></div>
+      <div class="skill-card"><span class="skill-icon">TS</span><span>TypeScript</span></div>
+      <div class="skill-card"><span class="skill-icon">⬡</span><span>Node.js</span></div>
+      <div class="skill-card"><span class="skill-icon">git</span><span>Git &amp; GitHub</span></div>
+      <div class="skill-card"><span class="skill-icon">▣</span><span>SQL</span></div>
+      <div class="skill-card"><span class="skill-icon">⚛</span><span>React</span></div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h3 class="section-title"><span>03.</span> Projetos</h3>
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-top">
+          <span class="folder-icon">📁</span>
+          <div class="project-links">
+            <a href="https://github.com/Kaique29/Sistema_para_restaurante" target="_blank" rel="noopener" aria-label="GitHub">↗</a>
+          </div>
+        </div>
+        <h4>Sistema para Restaurante</h4>
+        <p>Sistema de gestão desenvolvido para controle de pedidos e operações de um restaurante.</p>
+        <ul class="tags">
+          <li>TypeScript</li><li>Node.js</li>
+        </ul>
+      </article>
+      <article class="project-card">
+        <div class="project-top">
+          <span class="folder-icon">📁</span>
+          <div class="project-links">
+            <a href="https://github.com/Kaique29/AulasFabio" target="_blank" rel="noopener" aria-label="GitHub">↗</a>
+          </div>
+        </div>
+        <h4>Aulas Fábio</h4>
+        <p>Projetos e exercícios práticos desenvolvidos durante estudos de programação.</p>
+        <ul class="tags">
+          <li>JavaScript</li><li>HTML</li><li>CSS</li>
+        </ul>
+      </article>
+      <article class="project-card">
+        <div class="project-top">
+          <span class="folder-icon">📁</span>
+          <div class="project-links">
+            <a href="https://github.com/Kaique29/aulas" target="_blank" rel="noopener" aria-label="GitHub">↗</a>
+          </div>
+        </div>
+        <h4>Aulas</h4>
+        <p>Repositório de estudos com exercícios e práticas de lógica de programação.</p>
+        <ul class="tags">
+          <li>JavaScript</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <h3 class="section-title"><span>04.</span> Contato</h3>
+    <p class="contact-text">Tem um projeto em mente ou quer trocar uma ideia? Me chama.</p>
+    <div class="contact-links">
+      <a href="mailto:kaiquerodrigues2105@gmail.com" class="btn btn-primary">Enviar e-mail</a>
+      <a href="https://github.com/Kaique29" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>Desenvolvido por Kaique Rodrigues · <span id="year"></span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
